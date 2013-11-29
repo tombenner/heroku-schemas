@@ -1,0 +1,4 @@
+.DS_Store
+*.dump
+Gemfile.lock
+features/support/config.yml
