@@ -7,7 +7,7 @@ Description
 
 Heroku Schemas lets you run multiple Heroku apps on top of a single Heroku Postgres database. A Postgres database can have multiple "schemas" (basically Postgres's word for database "namespaces"), and Heroku Schemas simply makes each app use its own schema within a single, shared database.
 
-For example, if you have five apps with small levels of traffic, instead of using five databases, you can now just use one database to serve all of them.
+For example, if you have five apps with small levels of traffic, instead of using five databases, you can now just use one database with five schemas to serve all of them.
 
 Installation
 ------------
